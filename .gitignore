@@ -157,3 +157,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#data
+data.csv
+rating.csv
+traffic.csv
+domains_location.csv
+
+data
