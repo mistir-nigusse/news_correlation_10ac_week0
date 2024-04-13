@@ -52,7 +52,7 @@ class NewsDataLoader:
     def get_domain_location_data(self):
        
 
-        return pd.read_csv(self.get_news_path())
+        return pd.read_csv(self.get_domain_location_path())
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Export News history')
